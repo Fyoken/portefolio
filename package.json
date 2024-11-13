@@ -2,7 +2,7 @@
   "name": "porte-folio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Fyoken.github.io/Porte_folio",
+  "homepage": "https://Fyoken.github.io",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
