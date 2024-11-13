@@ -67,6 +67,7 @@ const projectList = [
     title: "Site de jeu de piste",
     description: "Un jeu de piste en ligne mettant en avant les femmes de sciences de façon ludique, où les utilisateurs doivent résoudre des énigmes pour avancer.",
     link: "https://github.com/Fyoken/Site_jeu_de_Piste",
+    link2: "https://fyoken.github.io/Site_jeu_de_Piste/",
     videoLink: "scifemme.mp4"
   },
   {
@@ -118,7 +119,7 @@ function Projects() {
                   <div style={{ textAlign: 'center' }}>
                     <video
                       width="auto"
-                      height={project.title==="Chatbot de recommandation de films" ? "170%" : "auto"}
+                      height="auto"
                       controls
                       loop
                       autoPlay
@@ -148,13 +149,8 @@ function Projects() {
                 )}
               </div>
             )}
-            {project.title==="Chatbot de recommandation de films" ? <br></br> : ""}
-            {project.title==="Chatbot de recommandation de films" ? <br></br> : ""}
-            {project.title==="Chatbot de recommandation de films" ? <br></br> : ""}
-            {project.title==="Chatbot de recommandation de films" ? <br></br> : ""}
-            {project.title==="Chatbot de recommandation de films" ? <br></br> : ""}
             <a href={project.link} target="_blank" rel="noopener noreferrer">Voir sur GitHub</a>
-
+            {project.link2 && (<a href={project.link2} target="_blank" rel="noopener noreferrer"> / Accéder au site</a>)}
           </div>
         ))}
       </div>
