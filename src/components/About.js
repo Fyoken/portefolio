@@ -37,7 +37,7 @@ const styles = {
     margin: '0 auto',
   },
   profilePhoto: {
-    width: '200px',
+    width: '170px',
     height: '200px',
     borderRadius: '50%',
     marginBottom: '1rem',

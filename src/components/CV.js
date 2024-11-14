@@ -11,6 +11,8 @@ function CV() {
         className="responsive-pdf"
         type="application/pdf"
       ></embed>
+      <br></br>
+      <a href="CV_BARBOSA_Mathias.pdf" download>Télécharger mon CV (PDF)</a>
     </section>
   );
 }

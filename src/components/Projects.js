@@ -4,7 +4,7 @@ import React from 'react';
 const projectList = [
   {
     title: "Chatbot LLM embarqué",
-    description: "Développement d'un chatbot embarqué basé sur Llama3 pour un robot autonome.",
+    description: "Développement d'un chatbot embarqué avec l'architecture RAG basé sur Llama3 pour un robot autonome.",
     link: "https://github.com/Fyoken/Chatbot_LLM_embarque",
     videoLink: "marvin.mp4",
     videoLink2: "marvin2.mp4"
