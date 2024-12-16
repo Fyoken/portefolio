@@ -12,7 +12,7 @@ function About() {
         <div style={styles.textContainer}>
           <h2 style={styles.title}>À propos de moi</h2>
           <p style={styles.text}>
-            Je suis ingénieur spécialisé en intelligence artificielle. Tout juste diplômé de CY Tech, je recherche un premier emploi en tant que Data Scientist, Data Engineer, Data Analyst ou Développeur Python/Web.
+            Je suis ingénieur spécialisé en intelligence artificielle. Tout juste diplômé de CY Tech, je recherche un premier emploi en tant que data scientist ou data engineer.
           </p>
           <p style={styles.text}>
             <strong>Compétences principales :</strong> Python, Java, R, Docker, Git, Azure, AWS, PowerBI et Web (NodeJS et ReactJS).
