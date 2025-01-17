@@ -11,6 +11,14 @@ const projectList = [
     motcles: "RAG, LLM, Python, ROS, JavaScript, PyTorch, Keras, Tensorflow, Scikit-Learn, GPU, Prompt Engineering, NLP, SpeechToText, TextToSpeech, Reconnaissance Faciale."
   },
   {
+    title: "Worksearch",
+    description: "Développement d'une application de job dating assistée par IA.",
+    link: "https://github.com/Fyoken/worksearch",
+    videoLink: "ws1.mp4",
+    videoLink2: "ws2.mp4",
+    motcles: "API, LLM, Python, React Native, JavaScript, Node, Prompt Engineering, NLP"
+  },
+  {
     title: "Jeu d'échecs 2 joueurs ou avec une IA modulable",
     description: "Un jeu complet d'échecs pour s'entraîner avec une IA Alpha-Bêta.",
     link: "https://github.com/Fyoken/Jeu_echecs_IA_alpha_beta",
@@ -132,7 +140,7 @@ function Projects() {
                   <div style={{ textAlign: 'center' }}>
                     <video
                       width="auto"
-                      height="auto"
+                      height="500px"
                       controls
                       loop
                       autoPlay
@@ -148,7 +156,7 @@ function Projects() {
                   <div style={{ textAlign: 'center' }}>
                     <video
                       width="auto"
-                      height="auto"
+                      height="500px"
                       controls
                       loop
                       autoPlay
